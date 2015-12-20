@@ -1,0 +1,16 @@
+Perceptron Without Margin Best Parameters:Gamma0.0 Ita:1.0 Accuracy(D2):0.9797999858856201
+Perceptron With Margin Best Parameters:Gamma1.0 Ita:1.5 Accuracy(D2):0.9797999858856201
+Winnow Without Margin Best Parameters:Gamma0.0 Ita:1.1 Accuracy(D2):0.9995999932289124
+Winnow With Margin Best Parameters:Gamma0.3 Ita:1.1 Accuracy(D2):0.9998000264167786
+Perceptron Without Margin Converge
+ 1:248 2:383 3:373 4:437 5:451
+No Of Iterations:5:Mistakes:377 Instances:28112
+Perceptron With Margin Converge
+ 1:248 2:383 3:373 4:437 5:451
+No Of Iterations:5:Mistakes:377 Instances:28112
+Winnow Without Margin Converge
+ 1:642 
+No Of Iterations:1:Mistakes:420 Instances:18171
+Winnow With Margin Converge
+ 1:563 
+No Of Iterations:1:Mistakes:477 Instances:21854

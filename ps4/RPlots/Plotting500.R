@@ -1,0 +1,13 @@
+perceptronWOMargin500 <- read.csv("./WithoutMarginPerceptronPlot500.csv", header = TRUE, sep = ",")
+perceptronWithMargin500 <- read.csv("./WithMarginPerceptronPlot500.csv", header = TRUE, sep = ",")
+winnowWOMargin500 <- read.csv("./WithoutMarginWinnowPlot500.csv", header = TRUE, sep = ",")
+winnowWithMargin500 <- read.csv("./WithMarginWinnowPlot500.csv", header = TRUE, sep = ",")
+
+plot(perceptronWOMargin500$NoOfInstances,perceptronWOMargin500$NoOfMistakes, type="l", col="red", xlab = "No Of Instances", ylab = "No Of Mistakes", xlim=c(0,50000),ylim=c(0,1200), main="Instance versus Mistakes N = 500")
+par(new = TRUE)
+plot(perceptronWithMargin500$NoOfInstances,perceptronWithMargin500$NoOfMistakes, type="l", col="green", xlab = "", ylab = "", xlim=c(0,50000),ylim=c(0,1200), axes = F)
+par(new = TRUE)
+plot(winnowWOMargin500$NoOfInstances,winnowWOMargin500$NoOfMistakes, type="l", col="blue", xlab = "", ylab = "", xlim=c(0,50000),ylim=c(0,1200), axes = F)
+par(new = TRUE)
+plot(winnowWithMargin500$NoOfInstances,winnowWithMargin500$NoOfMistakes, type="l", col="purple", xlab = "", ylab = "", xlim=c(0,50000),ylim=c(0,1200), axes = F)
+legend(14,1200,c("Percoptron W/O Margin","Percoptron With Margin","Winnow W/O Margin", "Winnow With Margin"),col=c("red","green","blue","purple"),pch=c(1,1,1,1),cex=0.6)

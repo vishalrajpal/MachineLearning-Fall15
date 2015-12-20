@@ -1,0 +1,15 @@
+ java -Xmx4096m GenerateLMN 10 500 1000 50000 true 10000
+Perceptron Without Margin Best Parameters:Gamma0.0 Ita:1.0 Accuracy(D2):0.7874000072479248
+Perceptron With Margin Best Parameters:Gamma1.0 Ita:0.001 Accuracy(D2):0.8805999755859375
+Winnow Without Margin Best Parameters:Gamma0.0 Ita:1.0001 Accuracy(D2):0.8787999749183655
+Winnow With Margin Best Parameters:Gamma2.0 Ita:1.0001 Accuracy(D2):0.879800021648407
+Perceptron Without Margin Batch
+Perceptron With Margin Batch
+1000 1000
+Winnow Without Margin Batch
+Winnow With Margin Batch
+1000 1000
+Perceptron Without Margin Batch Mistakes:4311 Accuracy(Test):0.5689
+Perceptron With Margin Batch Mistakes:4791 Accuracy(Test):0.5209
+Winnow Without Margin Batch Mistakes:1086 Accuracy(Test):0.8914
+Winnow With Margin Batch Mistakes:1065 Accuracy(Test):0.8935

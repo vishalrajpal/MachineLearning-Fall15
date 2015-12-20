@@ -1,0 +1,12 @@
+Perceptron Without Margin Best Parameters:Gamma0.0 Ita:1.0 Accuracy(D2):0.977400004863739
+Perceptron With Margin Best Parameters:Gamma1.0 Ita:0.001 Accuracy(D2):0.9824000000953674
+Winnow Without Margin Best Parameters:Gamma0.0 Ita:1.1 Accuracy(D2):0.989799976348877
+Winnow With Margin Best Parameters:Gamma2.0 Ita:1.1 Accuracy(D2):0.9905999898910522
+Perceptron Mistakes Without Margin:1200
+Perceptron Accuracy Without Margin:0.976
+Perceptron Mistakes With Margin:949
+Perceptron Accuracy With Margin:0.98102
+Winnow Mistakes Without Margin:751
+Winnow Accuracy Without Margin:0.98498
+Winnow Mistakes With Margin:716
+Winnow Accuracy With Margin:0.98568
